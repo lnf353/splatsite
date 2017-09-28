@@ -1,0 +1,63 @@
+
+.slider-bar-wrapper{
+    margin:45px auto 0 auto;
+    width:350px;
+}
+.slider-bar {
+    height: 5px;
+    width:300px;
+    background-color:#e3e5e5;
+    display:block;
+    cursor:pointer;
+    
+    &__scroll {
+	transition: margin-left 250ms;
+	background-color:#d0003e;
+	height: 5px;
+	
+    }
+     @media screen and (min-width:400px) and (max-width:966px) {
+	 margin: 45px 0 0 0px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

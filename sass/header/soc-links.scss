@@ -1,0 +1,43 @@
+
+.soc-links {
+    list-style-type: none;
+    font-size: $font-size-1;
+    color: $color-header-links;
+    float: right; 
+    margin-top: 0;
+    margin-right: 10px;
+        
+    &__list  {
+	
+	padding-bottom: 10px;
+	a {
+	    text-decoration: none;
+	    color: #3151ED;
+	}
+    }
+    @media screen and (min-width:300px) and (max-width:966px) {
+	left:608px;
+	position:absolute;
+	
+
+	
+	
+	}   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

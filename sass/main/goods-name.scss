@@ -1,0 +1,49 @@
+
+
+
+.goods-name {
+    margin:0 0;
+    position:relative;
+    z-index:10;
+    width:1500px;
+    height:70px;
+    list-style-type:none;
+    background: #f2f4f5;
+    text-transform:uppercase;
+    font-family:'Raleway',sans-serif;
+    transition: all 250ms;
+    
+
+    &__text {
+	line-height:70px;
+	float:left;
+	padding: 0 25px;
+	font-size:21px;
+	
+    }
+    
+    &--hight-light {
+	
+	background-color:$color-header-nav;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

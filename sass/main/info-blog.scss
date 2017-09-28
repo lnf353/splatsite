@@ -1,0 +1,83 @@
+
+
+.info-blog {
+    
+    &__title {
+	padding-left:141px;
+    }
+    &__content {
+	display:inline-block;
+	margin:70px 0 70px 109px;
+    }
+    
+    img {
+	margin:0;
+	padding:0;
+    }
+    
+    &__article {
+
+	color:#4c4c4c;
+	font-family:'Roboto', Sans Serif;
+	
+	font-size:18px;
+	line-height:30px;
+	margin: 0 0 0 30px;
+	width: 450px;
+	display:block;
+	float:right;
+	
+    }
+    &__sign {
+	white-space:pre-wrap;
+	font-style:italic;
+	font-size:15px;
+	text-align:right;
+	line-height:18px;
+	float:right;
+	margin:-5px 15px 0 0;
+	displat:block;
+	color:#9B9B9B;
+    }
+	@media (min-width:400px) and (max-width:965px) {
+		&__content {
+			margin:70px 0 70px 41px;
+			
+			
+		}
+		&__article {
+			float:none;
+			margin:0 0 0 80px;
+			width: 380px;
+		}
+		img {float:left;
+			 
+			 width: 50px;
+			 height: 70px;}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

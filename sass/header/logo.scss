@@ -1,0 +1,49 @@
+
+body {
+    font-family:'Roboto', Sans Serif;
+}  
+.logo {
+    
+    &__tagline {
+	
+	display:inline-block;
+	width: 70px;
+	margin:4px 0 0 0;
+	color:$color-header-links;
+
+    }
+    h1 {
+	
+	font-weight:300;
+	font-size:14px;
+	line-height:17px;
+    }
+    span {
+	font-size:13px;
+    }
+    @media (min-width:400px) and (max-width:965px) {
+	margin-left:20px;
+	
+
+	
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+window.fbAsyncInit=function(){FB.init({appId:"your-app-id",autoLogAppEvents:!0,xfbml:!0,version:"v2.10"}),FB.AppEvents.logPageView()},function(e,n,t){var o,i=e.getElementsByTagName(n)[0];e.getElementById(t)||(o=e.createElement(n),o.id=t,o.src="//connect.facebook.net/en_US/sdk.js",i.parentNode.insertBefore(o,i))}(document,"script","facebook-jssdk");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

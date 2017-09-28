@@ -1,0 +1,78 @@
+
+
+
+.goods-slider-image {
+    position:relative;
+    
+    
+    img {
+	position:relative;
+	z-index:9;
+	margin:-40px 0 0 70px;
+	background-size:100%;
+	float:left;
+    }
+    
+    p {
+	color:#74c4e4;
+	font-family: 'Raleway',sans-serif;
+	line-height: 50px;
+	display:inline-block;
+	width: 440px;
+	margin: 0;
+	position:auto;
+	font-size:38px;
+	margin: 70px 0 0 50px;
+    }
+    
+	&__slide {
+	    float:left;
+	    width: 960px;
+	    height: 470px;
+	    position:relative;
+	    margin:0 auto;
+	}
+	
+	&__wrapper {
+	    width:9999px;
+	    transition: margin-left 250ms;
+	    
+	}
+	
+	
+    
+    @media (min-width:400px)and(max-width:965px) {
+	p {
+	    margin:70px 0 0 0;
+	    font-size:26px;
+	    width:280px;
+	    line-height:40px;
+	}
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

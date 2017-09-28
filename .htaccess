@@ -1,0 +1,11 @@
+<IfModule mod_expires.c>
+  ExpiresActive on
+  #ExpiresDefault "access plus 1 hours"
+  #ExpiresDefault "access plus 10 years"
+  ExpiresDefault "plus 600 seconds"
+  ExpiresByType img/*       "access plus 600 "
+
+  <IfModule mod_headers.c>
+    Header append Cache-Control "public"
+  </IfModule>
+</IfModule>
